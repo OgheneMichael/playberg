@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-I" transform="translate(-181.000000, -632.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Menu" transform="translate(-1.000000, 617.000000)">
+                <path d="M197.647299,24.5646734 C197.569252,24.2369963 197.408988,23.9242135 197.152804,23.6686253 L197.152208,23.6680295 L186.055272,15.5511679 C185.320083,14.8159795 184.127338,14.8165753 183.39215,15.5511679 C183.025152,15.9181664 182.841652,16.3977666 182.840461,16.8779626 L182.840461,16.8779626 L182.840461,33.1128773 C182.839269,33.5960522 183.022768,34.0798229 183.391554,34.4486087 C184.126743,35.1837971 185.319488,35.1837971 186.055272,34.4486087 L197.151613,26.3311513 C197.631809,25.8521469 197.793264,25.1789192 197.647299,24.5646734 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
