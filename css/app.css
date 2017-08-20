@@ -19,8 +19,10 @@ body {
     color: #ffffff;
 }
 
-
-main,article,section,header {
+main,
+article,
+section,
+header {
     position: relative;
 }
 
@@ -36,7 +38,8 @@ article {
     overflow: hidden;
 }
 
-img {
+img,
+svg, [poster] {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
@@ -47,16 +50,45 @@ article.col-12 {
     height: 125px;
 }
 
+article.col-6 {
+    margin-bottom: 3px;
+    height: 188px;
+}
+
+article.col-6 .article-inner {
+    padding: 15px;
+}
+
+article.col-6:nth-child(2n) {
+    margin-left: 3px;
+    flex-basis: 48.6% !important;
+    width: 48.6% !important;
+}
+
 .article-inner {
     height: 100%;
     padding: 8px 0;
     background: rgba(0, 0, 0, 0.6)
 }
 
-.article-inner > .col-2.row {
+.tap-target.active {
+    fill: #ee5305;
+}
+
+.article-inner>.col-2.row {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+}
+
+.nav-fixed-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1023;
+    background: #000000;
+    height: 8vh;
 }
 
 .nav-fixed-bottom {
@@ -71,6 +103,7 @@ article.col-12 {
 
 .img-wrap {
     position: absolute;
+    width: 100%;
     height: 100%;
     z-index: -9;
 }
@@ -123,26 +156,35 @@ article.col-12 {
 
 .row-left {
     justify-content: flex-start;
-  }
-  
-  .row-right {
-    justify-content: flex-end;
-  }
-  
-  .row-center {
-    justify-content: center;
-  }
-  
-  .row-space-between {
-    justify-content: space-between;
-  }
-  
-  .row-space-around {
-    justify-content: space-around;
-  }
+}
 
-.row-middle, .article-inner {
+.row-right {
+    justify-content: flex-end;
+}
+
+.row-center {
+    justify-content: center;
+}
+
+.row-space-between {
+    justify-content: space-between;
+}
+
+.row-space-around {
+    justify-content: space-around;
+}
+
+.row-middle,
+.article-inner {
     align-items: center;
+}
+
+.row-bottom {
+    align-items: flex-end;
+}
+
+.gutter {
+    padding: 0 15px;
 }
 
 .col {
@@ -224,11 +266,19 @@ article.col-12 {
     align-self: center;
 }
 
-.icon, .page-title, time {
+.icon,
+.page-title,
+time,
+.title {
     display: block;
     text-align: center;
 }
 
-.title {
-    text-align: center;
+.left {
+    text-align: left !important;
+}
+
+article.col-6 h5 {
+    margin: 0;
+    -webkit-margin-before: 6em;
 }
