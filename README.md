@@ -1,3 +1,3 @@
-# Playberg
+## Playberg
 
 *Front-end for playberg*
